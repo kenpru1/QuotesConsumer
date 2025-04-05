@@ -13,5 +13,7 @@
             "name": "kenpru1"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.2"
+    }
 }
