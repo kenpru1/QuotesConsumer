@@ -1,7 +1,7 @@
-namespace Kenpru1\Quotesconsumer\Console\Commands;
+namespace kenpru1\quotesconsumer\Console\Commands;
 
 use Illuminate\Console\Command;
-use Kenpru1\Quotesconsumer\Facades\Quotes;
+use Kenpru1\quotesconsumer\Facades\Quotes;
 
 class FetchQuotes extends Command
 {

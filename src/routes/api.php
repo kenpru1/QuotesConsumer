@@ -1,5 +1,5 @@
 use Illuminate\Support\Facades\Route;
-use Kenpru1\Quotesconsumer\Http\Controllers\ApiController;
+use kenpru1\quotesconsumer\Http\Controllers\ApiController;
 
 Route::prefix('api/quotes')->group(function() {
     Route::get('/', [ApiController::class, 'index']);

@@ -1,4 +1,4 @@
-namespace Kenpru1\Quotesconsumer\Exceptions;
+namespace kenpru1\quotesconsumer\Exceptions;
 
 use RuntimeException;
 

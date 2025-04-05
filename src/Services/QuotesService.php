@@ -1,7 +1,7 @@
-namespace Kenoru1\Quotesconsumer\Services;
+namespace kenpru1\quotesconsumer\Services;
 
-use Kenoru1\Quotesconsumer\Contracts\QuotesServiceInterface;
-use Kenoru1\Quotesconsumer\Exceptions\RateLimitExceededException;
+use kenpru1\quotesconsumer\Contracts\QuotesServiceInterface;
+use kenpru1\quotesconsumer\Exceptions\RateLimitExceededException;
 
 class QuotesService implements QuotesServiceInterface
 {

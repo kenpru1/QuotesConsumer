@@ -1,4 +1,4 @@
-namespace Kenpru1\Quotesconsumer\Http\Client;
+namespace kenpru1\quotesconsumer\Http\Client;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;

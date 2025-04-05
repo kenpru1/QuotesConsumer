@@ -1,7 +1,7 @@
-namespace Kenpru1\Quotesconsumer\Tests\Unit;
+namespace kenpru1\quotesconsumer\Tests\Unit;
 
 use Tests\TestCase;
-use Kenpru1\Quotesconsumer\Facades\Quotes;
+use kenpru1\quotesconsumer\Facades\Quotes;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 

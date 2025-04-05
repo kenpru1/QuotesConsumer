@@ -1,4 +1,4 @@
-namespace Kenpru1\Quotesconsumer\Services;
+namespace kenpru1\quotesconsumer\Services;
 
 use Illuminate\Support\Facades\Cache;
 

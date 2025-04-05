@@ -1,10 +1,10 @@
-namespace Kenpru1\Quotesconsumer\Providers;
+namespace kenpru1\quotesconsumer\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Kenpru1\Quotesconsumer\Services\QuotesService;
-use Kenpru1\Quotesconsumer\Http\Client\DummyJsonClient;
-use Kenpru1\Quotesconsumer\Services\CacheHandler;
-use Kenpru1\Quotesconsumer\Services\RateLimiter;
+use kenpru1\quotesconsumer\Services\QuotesService;
+use kenpru1\quotesconsumer\Http\Client\DummyJsonClient;
+use kenpru1\quotesconsumer\Services\CacheHandler;
+use kenpru1\quotesconsumer\Services\RateLimiter;
 
 class QuotesServiceProvider extends ServiceProvider
 {

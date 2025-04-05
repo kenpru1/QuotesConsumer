@@ -1,7 +1,7 @@
-namespace Kenpru1\Quotesconsumer\Tests\Unit;
+namespace kenpru1\quotesconsumer\Tests\Unit;
 
 use Tests\TestCase;
-use Kenpru1\Quotesconsumer\Services\CacheHandler;
+use kenpru1\quotesconsumer\Services\CacheHandler;
 
 class CacheHandlerTest extends TestCase
 {

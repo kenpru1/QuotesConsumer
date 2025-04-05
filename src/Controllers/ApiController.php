@@ -1,8 +1,8 @@
-namespace Kenpru1\Quotesconsumer\Http\Controllers;
+namespace kenpru1\quotesconsumer\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Kenpru1\Quotesconsumer\Services\QuotesService;
-use Kenpru1\Quotesconsumer\Facades\Quotes;
+use Kenpru1\quotesconsumer\Services\QuotesService;
+use Kenpru1\quotesconsumer\Facades\Quotes;
 
 class ApiController
 {

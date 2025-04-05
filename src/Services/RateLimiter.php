@@ -1,7 +1,7 @@
-namespace Kenpru1\Quotesconsumer\Services;
+namespace kenpru1\quotesconsumer\Services;
 
 use Illuminate\Support\Facades\Cache;
-use Kenpru1\Quotesconsumer\Exceptions\RateLimitExceededException;
+use kenpru1\quotesconsumer\Exceptions\RateLimitExceededException;
 
 class RateLimiter
 {
