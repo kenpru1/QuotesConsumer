@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Kenpru1\\Quotesconsumer\\": "src/"
+            "kenpru1\\quotesconsumer\\": "src/"
         }
     },
     "authors": [
