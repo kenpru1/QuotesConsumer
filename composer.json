@@ -1,0 +1,17 @@
+{
+    "name": "kenpru1/quotesconsumer",
+    "description": "consumo de citas desde el api dummyjson",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kenpru1\\Quotesconsumer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kenpru1"
+        }
+    ],
+    "require": {}
+}
