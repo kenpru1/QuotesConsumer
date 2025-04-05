@@ -15,5 +15,15 @@
     ],
     "require": {
         "php": ">=8.2"
+    },
+    "extra": {
+        "laravel": {
+        "providers": [
+            "kenpru1\\quotesconsumer\\Providers\\QuotesServiceProvider"
+        ],
+        "aliases": {
+            "Quotes": "kenpru1\\quotesconsumer\\Facades\\Quotes"
+        }
+        }
     }
 }
