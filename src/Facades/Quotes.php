@@ -6,6 +6,6 @@ class Quotes extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'Kenpru1\Quotesconsumer\Contracts\QuotesServiceInterface';
+        return 'kenpru1\quotesconsumer\Contracts\QuotesServiceInterface';
     }
 }
