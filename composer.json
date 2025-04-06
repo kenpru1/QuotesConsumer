@@ -18,9 +18,12 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-                "*"
-            ]
+            "providers": [
+                "kenpru1\\quotesconsumer\\Providers\\QuotesServiceProvider"
+            ],
+            "aliases": {
+                "Quotes": "kenpru1\\quotesconsumer\\Facades\\Quotes"
+            }
         }
     }
 }
