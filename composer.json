@@ -18,8 +18,8 @@
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "kenpru1\\quotesconsumer\\Providers\\QuotesServiceProvider"
+            "dont-discover": [
+                "*"
             ]
         }
     }
