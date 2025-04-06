@@ -18,9 +18,9 @@
         "php": ">=8.2"
     },
     "extra": {
-        "laravel": {
-            "dont-discover": [
-                "*"
+       "laravel": {
+            "providers": [
+                "kenpru1\\quotesconsumer\\src\\Providers\\QuotesServiceProvider"
             ]
         }
     }
