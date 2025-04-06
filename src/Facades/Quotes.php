@@ -1,4 +1,4 @@
-namespace kenpru1\Quotesconsumer\Facades;
+namespace kenpru1\quotesconsumer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

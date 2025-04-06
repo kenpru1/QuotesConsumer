@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\QuotesConsumer\Contracts;
+namespace kenpru1\quotesconsumer\Contracts;
 
 interface QuotesServiceInterface
 {
