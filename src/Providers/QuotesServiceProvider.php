@@ -30,21 +30,21 @@ class QuotesServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../../config/quotes.php' => config_path('quotes.php'),
+            base_path('vendor/kenpru1/quotesconsumer/src/config/quotes.php') => config_path('quotes.php'),
         ], 'config');
         // Registrar rutas API
-        $this->loadRoutesFrom(__DIR__.'/../../routes/api.php');
+        $this->loadRoutesFrom(base_path('vendor/kenpru1/quotesconsumer/src/routes/api.php'));
 
         // Registrar rutas de la UI
-        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'quotes');
-        $this->loadRoutesFrom(__DIR__.'/../../routes/web.php');
+        $this->loadViewsFrom(base_path('vendor/kenpru1/quotesconsumer/src/resources/views'), 'quotes');
+        $this->loadRoutesFrom(base_path('vendor/kenpru1/quotesconsumer/src/routes/web.php'));
 
         $this->publishes([
-             __DIR__.'/../../resources/views' => resource_path('views/vendor/quotes'),
+            base_path('vendor/kenpru1/quotesconsumer/resources/views') => resource_path('views/vendor/quotes'),
         ], 'views');
 
         $this->publishes([
-            __DIR__.'/../../public' => public_path('vendor/quotes'),
+            base_path('vendor/kenpru1/quotesconsumer/public') => public_path('vendor/quotes'),
         ], 'public');
     }
 }
