@@ -13,13 +13,14 @@
             "name": "kenpru1"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=8.2"
     },
     "extra": {
-        "laravel": {
-            "dont-discover": [
-                "*"
+       "laravel": {
+            "providers": [
+                "kenpru1\\quotesconsumer\\Providers\\QuotesServiceProvider"
             ]
         }
     }
