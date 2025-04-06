@@ -40,11 +40,11 @@ class QuotesServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(base_path('vendor/kenpru1/quotesconsumer/src/routes/web.php'));
 
         $this->publishes([
-            base_path('vendor/kenpru1/quotesconsumer/resources/views') => resource_path('views/vendor/quotes'),
+            base_path('vendor/kenpru1/quotesconsumer/src/resources/views') => resource_path('views/vendor/quotes'),
         ], 'views');
 
         $this->publishes([
-            base_path('vendor/kenpru1/quotesconsumer/public') => public_path('vendor/quotes'),
+            base_path('vendor/kenpru1/quotesconsumer/src/public') => public_path('vendor/quotes'),
         ], 'public');
     }
 }
