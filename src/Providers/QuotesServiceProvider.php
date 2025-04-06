@@ -10,7 +10,7 @@ class QuotesServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../../config/quotes.php', 'quotes');
+        $this->mergeConfigFrom(base_path('vendor/kenpru1/quotesconsumer/src/config/quotes.php'), 'quotes');
 
         $this->app->singleton('quotes.client', function ($app) {
             return new DummyJsonClient(
