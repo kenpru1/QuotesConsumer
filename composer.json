@@ -20,7 +20,7 @@
     "extra": {
        "laravel": {
             "providers": [
-                "kenpru1\\quotesconsumer\\src\\Providers\\QuotesServiceProvider"
+                "kenpru1\\quotesconsumer\\Providers\\QuotesServiceProvider"
             ]
         }
     }
